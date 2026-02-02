@@ -61,7 +61,7 @@ const Hero = () => {
                 <div className="w-full h-full rounded-full bg-gray-200 flex items-center justify-center overflow-hidden">
                   {/* Replace this with actual image once you add your photo */}
                   <img
-                    src={personalInfo.profileImage}
+                    src={`${import.meta.env.BASE_URL}${personalInfo.profileImage}`}
                     alt={personalInfo.name}
                     className="w-full h-full object-cover"
                     onError={(e) => {

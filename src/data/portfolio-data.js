@@ -11,7 +11,7 @@ export const personalInfo = {
   lab: "Visual Cognition Lab",
   advisor: "Jeongmi Lee",
   bio: "Ph.D. candidate at KAIST specializing in Human-Computer Interaction, Extended Reality, and Assistive Technology. My research focuses on understanding and enhancing human experiences in virtual environments through haptic feedback, sensory substitution, and cognitive neuroscience approaches.",
-  profileImage: "/profile-photo.JPG", // Profile photo in public folder
+  profileImage: "profile-photo.JPG", // Profile photo in public folder (no leading slash for Vite base path)
 };
 
 export const interests = [
